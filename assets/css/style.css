@@ -126,7 +126,6 @@ button[type="submit"] {
 
 
 
-/* Estilo para el footer */
 footer {
     background-color: rgb(15, 201, 241);
     height: 80px;
@@ -141,17 +140,20 @@ footer {
 .viajes-chile {
     font-size: 25px;
     color: white;
+    margin-left: 150px;
 }
 
 /* Estilo para los iconos sociales */
 .social-icons {
     display: flex;
+    margin-right: 150px;
 }
 
 .social-icons a {
     color: white;
     font-size: 25px;
     margin-left: 20px;
+    
 }
 
 /* Media query para dispositivos móviles */
