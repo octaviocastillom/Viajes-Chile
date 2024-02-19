@@ -102,6 +102,14 @@ html, body {
     object-fit: cover; /* Ajusta la imagen para llenar el contenedor manteniendo la relación de aspecto */
 }
 
+@media (max-width: 767px) {
+    .col-md-3 {
+        flex: 0 0 100%; 
+        max-width: 100%; 
+        margin-bottom: 20px; 
+    }
+}
+
 /* Estilo para la sección */
 section {
     text-align: left; /* Centra el contenido del formulario */
@@ -143,7 +151,7 @@ footer {
     margin-left: 150px;
 }
 
-/* Estilo para los iconos sociales */
+/* Estilo para los iconos  */
 .social-icons {
     display: flex;
     margin-right: 150px;
@@ -156,18 +164,18 @@ footer {
     
 }
 
-/* Media query para dispositivos móviles */
+
 @media (max-width: 768px) {
     footer {
         flex-direction: column;
-        height: auto; /* Cambia la altura a automática para que se ajuste al contenido */
-        padding: 20px; /* Añade espacio interno alrededor del contenido */
+        height: auto; 
+        padding: 20px; 
     }
 
     .viajes-chile {
-        margin: 0; /* Elimina el margen para centrar el texto */
-        margin-bottom: 10px; /* Añade espacio entre el texto y los iconos */
-        text-align: center; /* Centra el texto */
+        margin: 0; 
+        margin-bottom: 10px; 
+        text-align: center; 
     }
 
     .social-icons {
